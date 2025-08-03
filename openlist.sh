@@ -6,7 +6,7 @@ tar -zxvf openlist-linux-arm-7.tar.gz
 
 rm openlist-linux-arm-7.tar.gz
 
-mv openlist.service /usr/lib/systemd/system/
+mv -f openlist.service /usr/lib/systemd/system/
 
 chmod +x run.sh
 
