@@ -3,8 +3,8 @@ Description=openlist
 After=network.target
 [Service]
 Type=simple
-WorkingDirectory=path_openlist
-ExecStart=path_openlist/openlist server
+WorkingDirectory=/root/openlist
+ExecStart=/root/openlist/openlist server
 Restart=on-failure
 [Install]
 WantedBy=multi-user.target
